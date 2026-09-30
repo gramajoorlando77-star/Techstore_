@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Store</title>
+
+    <!-- Conectar CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>💻 TECH STORE 📱</h1>
+        <p>Tu tienda de tecnología</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="bienvenida">
+        <h2>Bienvenido a Tech Store</h2>
+        <p>Tenemos productos de tecnología a buenos precios.</p>
+    </section>
+
+    <h2 id="productos">Nuestros productos</h2>
+
+    <div class="productos">
+
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500">
+            <h3>Celular</h3>
+            <p>Celular moderno con buena cámara.</p>
+            <p class="precio">Q2,500</p>
+            <button onclick="comprar('Celular')">Comprar</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500">
+            <h3>Laptop</h3>
+            <p>Laptop para estudiar y trabajar.</p>
+            <p class="precio">Q4,500</p>
+            <button onclick="comprar('Laptop')">Comprar</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500">
+            <h3>Audífonos</h3>
+            <p>Audífonos inalámbricos.</p>
+            <p class="precio">Q350</p>
+            <button onclick="comprar('Audífonos')">Comprar</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500">
+            <h3>Consola</h3>
+            <p>Consola para jugar videojuegos.</p>
+            <p class="precio">Q3,800</p>
+            <button onclick="comprar('Consola')">Comprar</button>
+        </div>
+
+    </div>
+
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>Correo: techstore@gmail.com</p>
+        <p>Teléfono: 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Tech Store</p>
+    </footer>
+
+    <!-- Conectar JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

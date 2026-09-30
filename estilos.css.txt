@@ -1,0 +1,113 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+/* Encabezado */
+
+header {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Menu */
+
+nav {
+    background-color: #444444;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+/* Bienvenida */
+
+.bienvenida {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Productos */
+
+h2 {
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.producto img {
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.precio {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Botones */
+
+button {
+    background-color: #222222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0088cc;
+}
+
+/* Contacto */
+
+.contacto {
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

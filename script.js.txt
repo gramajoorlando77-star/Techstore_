@@ -1,0 +1,5 @@
+function comprar(producto) {
+
+    alert("Has seleccionado: " + producto);
+
+}
